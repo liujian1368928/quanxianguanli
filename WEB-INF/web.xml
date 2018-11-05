@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<!--  <Manager className="org.apache.catalina.session.PersistentManager" saveOnRestart="false"/>-->
+  <display-name></display-name>
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>check_servlet</servlet-name>
+    <servlet-class>servlet.check_servlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>add_delete_change_cheak</servlet-name>
+    <servlet-class>servlet.add_delete_change_cheak</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>jiaosequanxian_servlet</servlet-name>
+    <servlet-class>servlet.jiaosequanxian_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>quanxianbiao_servlet</servlet-name>
+    <servlet-class>servlet.quanxianbiao_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>menu_servlet</servlet-name>
+    <servlet-class>servlet.menu_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>savecheck_servlet</servlet-name>
+    <servlet-class>servlet.savecheck_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>login_servlet</servlet-name>
+    <servlet-class>servlet.login_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>jiaoseguanli_servlet</servlet-name>
+    <servlet-class>servlet.jiaoseguanli_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>yonghuguanli_servlet</servlet-name>
+    <servlet-class>servlet.yonghuguanli_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>search_servlet</servlet-name>
+    <servlet-class>servlet.search_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>logout_servlet</servlet-name>
+    <servlet-class>servlet.logout_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ajaxfenye_servlet</servlet-name>
+    <servlet-class>servlet.ajaxfenye_servlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+	
+  <servlet-mapping>
+    <servlet-name>check_servlet</servlet-name>
+    <url-pattern>/check_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>add_delete_change_cheak</servlet-name>
+    <url-pattern>/add_delete_change_cheak</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jiaosequanxian_servlet</servlet-name>
+    <url-pattern>/jiaosequanxian_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>quanxianbiao_servlet</servlet-name>
+    <url-pattern>/quanxianbiao_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>menu_servlet</servlet-name>
+    <url-pattern>/menu_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>savecheck_servlet</servlet-name>
+    <url-pattern>/savecheck_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>login_servlet</servlet-name>
+    <url-pattern>/login_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jiaoseguanli_servlet</servlet-name>
+    <url-pattern>/jiaoseguanli_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>yonghuguanli_servlet</servlet-name>
+    <url-pattern>/yonghuguanli_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>search_servlet</servlet-name>
+    <url-pattern>/search_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>logout_servlet</servlet-name>
+    <url-pattern>/logout_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ajaxfenye_servlet</servlet-name>
+    <url-pattern>/ajaxfenye_servlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

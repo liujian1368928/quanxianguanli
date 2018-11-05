@@ -1,0 +1,64 @@
+#main{
+	float:left;
+	width:200px;
+	height:800px;
+	min-height:700px;
+	background:#F9F9F9;
+	
+}
+#main_left{/*左边主菜单*/
+	float:left;
+	width:10%;/*左边边占20%*/
+	min-width:200px;
+	height:100%;
+
+	}
+#main_left a{
+		color:#000;/*所有a标签颜色为黑*/
+}
+#main_left #bar{/*导航栏按钮*/
+	text-align:center;/*文字居中*/
+	font-size:18px;
+	width:100%;
+	height:40px;/*导航栏高度*/
+	line-height:40px;
+	background:#F2F2F2;/*导航栏背景颜色*/
+	cursor:pointer;
+	border:#ccc 1px solid;
+	border-top:none;
+	margin-top:2px;
+	}
+#main_left #bar:hover{/*导航栏*/	
+	background:#f9f9f9;/*#3D464D;导航触摸栏背景颜色*/
+	}
+#main_left #list,#list2,#list3,#list4,#list5,#list6{
+
+	width:100%;
+	height:auto;
+	background:#F2F2F2;/*#333A40;下拉列表菜单颜色*/
+	text-align:center;/*背景颜色居中*/
+	/*点击按钮后背景颜色动画的持续时间*/
+	}
+#main_left .list li{
+	/*文字消失时间*/
+	height:30px;
+	line-height:30px;
+	list-style:none;
+	text-align:center;
+	text-decoration:none;
+	font-size:16px;
+	border:#ccc 1px dashed;
+	border-top:none;
+	//display:none;
+	/*下拉列表文字颜色*/
+	
+}	
+#main_left .list li:hover{
+width:100%;
+height:auto;/*设置下拉栏背景色高度*/
+background:#f9f2f2;/*下拉栏列表触摸时的颜色*/
+	}
+a,li{
+text-decoration:none;
+list-syle:none;
+}

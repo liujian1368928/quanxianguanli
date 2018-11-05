@@ -1,0 +1,31 @@
+#box{
+	width:900px;
+	height: 600px;
+	background-color: #999;
+}
+#head{
+	width: 900px;
+	height: 40px;
+	background:red;	
+}
+
+#main{
+	width:900px;
+	height:400px;
+	background:blue;
+}
+#left{
+	width:200xp;
+	height:560px;
+	
+}
+#right{
+	width:700px;
+	height:560px;
+}
+
+#foot{
+	
+	
+}
+
